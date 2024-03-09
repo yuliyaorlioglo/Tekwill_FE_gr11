@@ -28,5 +28,7 @@
 
 Кроме того,вы можете найти более подробный список функций синтаксиса Markdown по адрессу:
 
-- [Полное руководство по синтаксису](https://www.markdownguide.org/cheat-sheet/#extended-syntax)
+- [Полное руководство по синтаксису](https://www.markdownguide.org/cheat-sheet/#extended-syntax)  
+
+
 
