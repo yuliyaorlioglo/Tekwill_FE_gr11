@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <form action="submit-form" method="post">
+
+    <fieldset>
+        <legend>Basic User Information</legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="male">Other</label>
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+    </fieldset>
+
+    <fieldset>
+        <legend>Adress Information:</legend>
+
+        <label for="street" >Street Adress:</label>
+        <textarea id="street" name="street"></textarea>
+        <br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="moldova">Moldova</option>
+            <option value="germany">Germany</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+        <br>
+        <label for="postal">Postal Code:</label>
+        <input type="number" id="postal" name="postal">
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferences:</legend>
+
+        <label>Preferred Contact Method:</label>
+        <input type="checkbox" id="email" name="contact" value="email">
+        <label for="email">Email:</label>
+
+        <input type="checkbox" id="phone" name="contact" value="phone">
+        <label for="phone">Phone:</label>
+
+        <input type="checkbox" id="postal" name="contact" value="postal">
+        <label for="postal">Postal Mail:</label>
+        <br>
+        <label for="color">Favorite Color</label>
+        <input type="color" id="color" name="color">
+    </fieldset>
+
+    <fieldset>
+         <legend>Additional Details:</legend>
+
+         <label for="hereabout">How did you here about us?:</label>
+         <select id="hereabout" name="hereabout">
+            <option value="Internet"></option>
+            <option value="Friends"></option>
+            <option value="Advertisement"></option>
+            <option value="Other"></option>
+         </select>
+         <br><br>
+         <label for="comment" >Feedback/Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Profile:</legend>
+        
+         <label for="profilePic">Upload a profile picture</label>
+         <input type="file" id="profilePic" name="profilePic" accept="image/jpeg, image/png" required>
+         <br>
+         <label for="website">Website URL</label>
+         <input type="url" id="website" name="website">
+         <br>
+         <label for="experience">Experience level with HTML:</label>
+         <input type="range" id="experience" name="experience" min="1" max="10" oninput="displayValue.value=experience.value">
+         <output id="displayValue">5</output>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+     </form>
+</body>
+</html>  
