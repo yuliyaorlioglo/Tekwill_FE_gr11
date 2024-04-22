@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>The Code Magazine</title>
+    <style> 
+    .send-button {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .special-paragraph {
+      color: green;
+    }
+    p {
+      color: bisque;
+    }
+
+    #magazine-title {
+      color: blue;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+      
+    </style>
 </head>
-<body>
-    <h1>📘 The Code Magazine</h1>
+<body style="background-color: gray;">
+    <h1 id="magazine-title">📘 The Code Magazine</h1>
     <h2>The Basic Language of the Web: HTML</h2>
     <img src="img/laura-jones.jpg" alt="">
     
@@ -43,6 +67,8 @@
     </ul>
         </div>
         
-    <p>Hopefully you learned something new here. See you next time!</p>
+    <p class="special-paragraph">Hopefully you learned something new here. See you next time!</p>
+
+    <button class="send-button">Send Message</button>
 </body>
 </html>
