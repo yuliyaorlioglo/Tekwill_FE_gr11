@@ -1,0 +1,60 @@
+.special-paragraph {
+    color: green;
+  }
+  p {
+    color: bisque;
+  }
+
+  #magazine-title {
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+a:hover {
+    color: white;
+}
+
+body {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+
+}
+
+h2:first-of-type {
+    color: rgb(44, 44, 102); 
+}
+
+ ol li:nth-child(even) {
+    color: rgb(238, 238, 162);
+}
+ul li:nth-last-child(2) {
+    color: rgb(240, 176, 80);
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+nav a::before {
+    content: "*";
+}
+
+nav a::after {
+    content: "*";
+}
+
+h1 {
+    background-color: rgba(27, 27, 92, 0.5);
+}
+
+img[src="img/post-img.jpg"] {
+    width: calc(50% + 150px);
+}
