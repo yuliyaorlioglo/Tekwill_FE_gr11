@@ -1,0 +1,31 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue, -4px -2px 5px brown;
+}
+.container {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: brown;
+    border-width: 100px; 
+    border-color: red;
+    border-style: solid;
+    outline: 30px solid yellow;
+    margin: 40px 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px 50px yellowgreen;
+    display: flex;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+
